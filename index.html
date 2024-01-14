@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Animated Sidebar</title>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="sidebar" id="sidebar">
+    <div class="close-btn" onclick="closeSidebar()">X</div>
+    <!-- Add your sidebar content here -->
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About </a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <div class="content">
+    <button class="open-btn" onclick="openSidebar()">☰</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
